@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        .form1{
+    margin-top: 150px;
+    border: 1px solid black;
+    width: 400px;
+    border-radius: 10px;
+    background-color: brown;
+    
+
+
+}
+input[type=email]{
+    font-size: 20px;
+    margin: 20px;
+}
+input[type=email]{
+    font-size: 20px;
+    margin: 20px;
+}
+input[type=password]{
+    font-size: 20px;
+    margin: 20px;
+}
+input[type=submit]{
+    font-size: 20px;
+    margin: 20px;
+}
+    </style>
+</head>
+<body>
+<center>
+    <form class="form1" onsubmit="return loginform()">
+        <input id="email" type="email" placeholder="enter username"><br>
+        <input id="password" type="password" placeholder="enter password"><br>
+        <input id="confirmpassword" type="password" placeholder="confirmpassword"><br>
+        <input type="submit" value="login">
+
+    </form>
+</center>
+<script>
+function loginform(){
+    let email = document.getElementById('email').value;
+    let password = document.getElementById('password').value;
+    let existemail = 'sarfraz972158@gmail.com';
+    let existpassword = '12345';
+    console.log(email);
+    console.log(password);
+    if (email === existemail && password === existpassword){
+        window.location.href='./index.html';
+    }
+    else{
+        alert("Incorrect password")
+    }
+    return false
+}
+</script>
+</body>
+</html>

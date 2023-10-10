@@ -1,0 +1,154 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    
+}
+/* ============================MY SKILLS===========================*/
+
+#logo{
+    display: none;
+}
+#sar{
+    
+border-bottom: 1px solid  rgba(241, 238, 243, 0.395);
+background-color: rgba(116, 45, 164, 0.395);
+padding: 7px;
+    
+    
+}
+#showmega{
+    width: 100%;
+    height: 500px;
+    padding-left: 250px;
+    background-color: rgba(249, 245, 245, 0.349);
+    
+}
+
+li{
+    list-style-type: none;
+    font-size: 25px;
+    
+    
+}
+#ul1{
+    display: flex;
+    justify-content: center;
+    
+
+  
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 40px;
+}
+#ul1 img{
+    width: 130px;
+    height: 60px;
+    position: relative;
+    top: -8px;
+    color: brown;
+    
+}
+
+
+/* ============================logo image===========================*/
+
+#firstlogo img{
+    height: 200px;
+    width: 300px;
+
+}
+#firstlogo{
+    padding: 130px;
+    
+ 
+}
+/* ============================seacr ke liye ===========================*/
+
+input[type="search"]{
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+    padding: 13px;
+    margin-top: 30px;
+ margin-left: 550px;
+ background-color: white;
+ color: black;
+
+} 
+
+/* ============================ after navbar design button          ===========================*/
+
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.btn{
+    display: inline-block;
+    background-color: brown;
+    color: azure;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    
+
+}
+.btn:hover{
+    background-color: yellow
+}
+/* ============================seacr ke liye ===========================*/
+.card{
+    width: 200px;
+    height: 270px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px silver;
+   margin: 10px;
+}
+.card1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0px 0px 0px 0px;
+
+    
+}
+
+.button1{
+    width: 40%;
+    background-color: rgba(96, 85, 85, 0.144);
+    color: black;
+    padding: 0px;
+    border-radius: 10px;
+}
+.button1:hover{
+    background-color: black;
+    color: white;
+}
+.card2{
+    display: flex;
+    justify-content: space-around;
+}
+.card2 div{
+    width: 40px;
+    height: 15px;
+    margin: 5 px;
+    border: 1px solid black;
+    border-radius: 3px
+    
+}
+
+#showcard{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    gap: 10px;
+}
+

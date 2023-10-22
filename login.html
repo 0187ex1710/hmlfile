@@ -47,16 +47,25 @@ input[type=submit]{
 function loginform(){
     let email = document.getElementById('email').value;
     let password = document.getElementById('password').value;
+    let confirmpassword = document.getElementById('confirmpassword').value;
     let existemail = 'sarfraz972158@gmail.com';
     let existpassword = '12345';
     console.log(email);
-    console.log(password);
-    if (email === existemail && password === existpassword){
+
+    if(email === existemail  && password === existpassword){
+        if(password === confirmpassword){
         window.location.href='./index.html';
-    }
+
+        }
+    
     else{
-        alert("Incorrect password")
+        alert("password does not match")
     }
+}
+    else{
+        alert("please fill password")
+    }
+    
     return false
 }
 </script>

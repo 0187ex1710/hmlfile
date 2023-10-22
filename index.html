@@ -18,14 +18,14 @@
      
         <ul id="ul1">
             <img src="./assest/logo.png">
-            <li onmouseenter="Home()"><a href="#">Home</a> </li> 
-            <li><a href="#">Shops</a> </li>  
+            <li><a href="#">Home</a> </li> 
+            <li onmouseenter="shops()"><a href="#">Shops</a> </li>  
             <li><a href="#">Product</a> </li>  
-            <li><a href="#">About</a> </li>  
-            <li><a href="#">Contact Us</a> </li>
-            <li><a href="login.html">Login</a> </li>  
+            <li onmouseenter="about()"><a href="#">About</a> </li>  
+            <li onmouseenter="contact()"><a href="#">Contact Us</a> </li>
+            <li onmouseenter="Profile()"><a href="">Profile</a> </li>  
 
-         <img src="assest/cart.png" style="width: 40px; height: 30px;">
+         <img src="assest/cart.png" onclick="cart()" style="width: 40px; height: 30px;">
     </ul>
 </div>
   <!----============== search menubar       ===========--->
@@ -33,7 +33,7 @@
 <input type="search" placeholder="Search For Product And More">
 
 
-  <!----============== deign button and ecommerce ===========--->
+  <!----============== final output===========--->
 <div id="finaloutput" onmouseleave="hiddennav()"></div>
   
   <div class="row">
@@ -48,13 +48,106 @@
 
 </div>
   <!----========== ====CARD===========--->
-
+<center style="color: aquamarine;"><H1>Your Are Best Seller</H1></center>
  <div id="showcard"></div>
+
+
+  <!----========== ====freeshiping===========--->
+  <section style=" background-color: rgb(92, 90, 90)">
+    <div class="shipping">
+      <div style="display: flex; margin: 20px">
+        <div style="font-size: 30px; margin: 13px">
+         <img src="assest/download1.png" style="width: 40px; height: 30px;">
+          
+        </div>
+        <div>
+          <h3>Free Shipping</h3>
+          <p>Tell about your service</p>
+        </div>
+      </div>
+
+      <div style="display: flex; margin: 20px">
+        <div style="font-size: 30px; margin: 13px">
+         <img src="https://tseshopping.vercel.app/images/icons/box2.webp" style="width: 40px; height: 30px;">
+          
+        </div>
+        <div>
+          <h3>Money Guarantee</h3>
+          <p>Within 30 days for an exchange.</p>
+        </div>
+      </div>
+
+      <div style="display: flex; margin: 20px">
+        <div style="font-size: 30px; margin: 13px">
+         <img src="https://tseshopping.vercel.app/images/icons/box3.webp" style="width: 40px; height: 30px;">
+          
+        </div>
+        <div>
+          <h3>Online Support</h3>
+          <p>24 hours a day, 7 days a week</p>
+        </div>
+      </div>
+
+      <div style="display: flex; margin: 20px">
+        <div style="font-size: 30px; margin: 13px">
+         <img src="https://tseshopping.vercel.app/images/icons/box4.webp" style="width: 40px; height: 30px;">
+          
+        </div>
+        <div>
+          <h3>Flexible Payment</h3>
+          <p>Pay with Multiple Credit Cards</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <!-- =====================information=========================== -->
+      <div class="information">
+        <div class="heading">
+          <div>
+          <h3>Informations</h3>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Refund Policy</a></li>
+          <li><a href="#">Shipping and Return</a></li>
+          <li><a href="#">Term and conditions</a></li>
+        </div>
+
+        <div>
+          <h3>Quicks links</h3>
+          <li><a href="#">My account</a></li>
+          <li><a href="#">Cart</a></li>
+          <li><a href="#">Wishlist</a></li>
+          <li><a href="#">Product Compare</a></li>
+        </div>
+
+        <div>
+          <h3>Our Stores</h3>
+          <li>
+            <a href="#">
+              Find a location nearest<br />
+              you. See Our Stores
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              +919918129499<br>
+              sarfraz@972158@gmail.com
+            </a>
+          </li>
+        </div>
+        <div>
+          <h3>Subscribe</h3>
+          <li>
+            <a href="#">
+    Enter your email below to be<br> the first to<br> know about new
+      collections and <br>product launches.
+            </a>
+          </li>
+          <li><input type="text" placeholder="enter Email" /></li>
+        </div>
+      </div>
 </div>
-
-
-
-
+</div>
     <script src="./index.js" >
 
     </script>

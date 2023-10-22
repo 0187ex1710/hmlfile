@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .buynow{
+    display: flex;
+    
+
+}
+.pic1 div{
+    width: 120;
+    height: 100px;
+
+}
+.pic1  div img{
+    width: 80px;
+    margin-top: 60px;
+    border: 1px solid black;
+  
+
+}
+.pic2{
+    width: 400px;
+    height: 390px;
+    border: 1px solid red;
+    margin-left: 100px;
+    border: none;
+
+    box-shadow: 1px 1px 1px 1px hsl(100, 29%, 45%);
+    margin-top: 100px;
+}
+.pic2 img{
+    width: 300px;
+}
+    </style>
+</head>
+<body>
+    <section class="buynow">
+        <div class=" pic1" >
+            <div onmouseover="i1()" id="i1">
+                <img src="https://rukminim2.flixcart.com/image/832/832/kwgpz0w0/sweatshirt/s/j/h/11-12-years-134158701-jack-jones-junior-original-imag94s44sr6g3hm.jpeg?q=70">
+            </div>
+            <div  onmouseover="i2()" id="i2">
+                <img src="https://rukminim2.flixcart.com/image/128/128/kwgpz0w0/sweatshirt/s/j/h/11-12-years-134158701-jack-jones-junior-original-imag94s44sr6g3hm.jpeg?q=70">
+            </div>
+            <div onmouseover="i3()" id="i3">
+                <img src="https://rukminim2.flixcart.com/image/128/128/l2arp8w0/sweatshirt/l/0/b/6-7-years-134158701-jack-jones-junior-original-imagdz5zpghnmgpz.jpeg?q=70">
+            </div>
+            <div onmouseover="i4()" id="i4" >
+                <img src="https://rukminim2.flixcart.com/image/128/128/kwgpz0w0/sweatshirt/o/v/q/11-12-years-134158701-jack-jones-junior-original-imag94s4d4t4hmrr.jpeg?q=70">
+            </div>
+            
+        </div>
+        <div class="pic2" id="pic2">
+            
+            <img src="./614dUeZq7fL.AC_UL480_FMwebp_QL65.webp">
+        </div> 
+        </section>
+        
+        <script>
+            function i1(){
+   
+   let sh =document.getElementById('i1').innerHTML;
+   document.getElementById('pic2').innerHTML= sh;
+   
+}
+function i2(){
+  
+   let sh =document.getElementById('i2').innerHTML;
+   document.getElementById('pic2').innerHTML= sh;
+   
+}
+function i3(){
+ 
+   let sh =document.getElementById('i3').innerHTML;
+   document.getElementById('pic2').innerHTML= sh;
+   
+}
+function i4(){
+
+   let sh =document.getElementById('i4').innerHTML;
+   document.getElementById('pic2').innerHTML= sh;
+   
+}
+        </script>
+</body>
+</html>
